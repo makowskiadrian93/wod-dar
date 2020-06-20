@@ -51,13 +51,13 @@ body {
 }
 h1 {
   width: 100%;
-  font-size: 6rem;
+  font-size: 4rem;
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h2 {
   width: 100%;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
