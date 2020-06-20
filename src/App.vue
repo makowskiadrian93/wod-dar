@@ -5,6 +5,7 @@
         <br />
 
           <h1 style="color: white">WOD-DAR</h1>
+            <h2 style="color: white">STRONA W BUDOWIE</h2>
         <button @click="whichColorComponent = 'appBlue'" class="btn btn-primary">O NAS</button>
         <button @click="whichColorComponent = 'appGreen'" class="btn btn-primary">TECHNOLOGIE</button>
         <button @click="whichColorComponent = 'appRed'" class="btn btn-primary">KONTAKT</button>
@@ -51,6 +52,12 @@ body {
 h1 {
   width: 100%;
   font-size: 6rem;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2 {
+  width: 100%;
+  font-size: 3rem;
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
