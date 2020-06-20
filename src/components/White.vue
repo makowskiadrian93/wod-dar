@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>Tutaj podajemy dane pomp</p>
+    <p>Tutaj podajemy dane pomp.</p>
   </div>
 </template>
 
