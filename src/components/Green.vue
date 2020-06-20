@@ -1,8 +1,6 @@
 <template>
   <div>
     <p>Oferujemy odwadnianie za pomocą igłofiltrów</p>
-    <p></p>
-  <p></p>
   </div>
 </template>
 

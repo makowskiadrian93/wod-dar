@@ -1,7 +1,7 @@
 <template>
     <div>
         <p>Jesteśmy firmą wykonującą instalacje zewnętrzne wodno-kanalizacyjne oraz instalacje deszczowe.</p>
-        <p>W branży wodno-budowal;naej działąmy od 10 lat na trerenmia całego kraju we współpracy z dużymi firmami.</p>
+        <p>W branży wodno-budowlanej działamy od 10 lat na terenie całego kraju we współpracy z dużymi firmami.</p>
          <p></p>
     </div>
 </template>
