@@ -1,28 +1,57 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <br />
+
+          <h1 style="color: white">WOD-DAR</h1>
+        <button @click="whichColorComponent = 'appBlue'" class="btn btn-primary">O NAS</button>
+        <button @click="whichColorComponent = 'appGreen'" class="btn btn-primary">TECHNOLOGIE</button>
+        <button @click="whichColorComponent = 'appRed'" class="btn btn-primary">KONTAKT</button>
+        <button @click="whichColorComponent = 'appWhite'" class="btn btn-primary">DANE TECHNICZNE POMP</button>
+        <hr />
+        <component :is="whichColorComponent"></component>
+      
+        <p style="color: white">kontakt: (+48) 603-651-601, NIP 9561540951</p>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Blue from "@/components/Blue.vue";
+import Green from "@/components/Green.vue";
+import Red from "@/components/Red.vue";
+import White from "@/components/White.vue";
 
 export default {
-  name: 'App',
+  data: function() {
+    return {
+      whichColorComponent: "appBlue"
+    };
+  },
   components: {
-    HelloWorld
+    appBlue: Blue,
+    appGreen: Green,
+    appRed: Red,
+    appWhite: White
   }
-}
+};
 </script>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+<style>
+body, html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+body {
+  background-color:rgb(79, 160, 187);
+}
+h1 {
+  width: 100%;
+  font-size: 6rem;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 </style>
