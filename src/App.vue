@@ -90,13 +90,21 @@ h2 {
 
 button {
   background-color :#008CBA;
+  transition-duration: 0.4s;
   border: none;
+  border-radius: 8px;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+   cursor: pointer;
+}
+button:hover {
+  background-color:rgb(101, 204, 238);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  color: white;
 }
 .buttons {
   display: grid;
